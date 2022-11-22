@@ -8,18 +8,18 @@ a {
     text-decoration: none;
     color: black;
     padding: 10px;
-    text-transform: uppercase;
 }
 
 ul {
     list-style: none;
 }
 
-.menu-top {
+.nav-container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     align-items: center;
     justify-items: center;
+    text-transform: uppercase;
 }
 
 .search-container {
@@ -38,6 +38,7 @@ ul {
     position: absolute;
     left: 150px;
 }
+
 
 .user-container a {
     margin: 5px;
