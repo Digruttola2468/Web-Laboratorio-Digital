@@ -7,7 +7,6 @@
 a {
     text-decoration: none;
     color: black;
-    padding: 10px;
 }
 
 ul {
@@ -20,6 +19,9 @@ ul {
     align-items: center;
     justify-items: center;
     text-transform: uppercase;
+}
+.nav-container a {
+    padding: 10px;
 }
 
 .search-container {
@@ -79,4 +81,54 @@ ul {
 }
 .menu-item a:hover {
     color: #b2b2b2;
+}
+
+
+/*------------------------------MAIN------------------------------*/
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+
+    text-transform: uppercase;
+}
+.features-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 60px;
+}
+.features-container a {
+    padding-top: 10px;
+}
+.features-container a:hover {
+    border-bottom: 1px solid black;
+}
+.products-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 30px;
+}
+.product-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.product-item img {
+    width: 100%;
+}
+.product-item p {
+    margin-top: 10px;
+}
+.product-item b {
+    margin-top: 10px;
+}
+.product-item button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+    text-transform: uppercase;
 }
