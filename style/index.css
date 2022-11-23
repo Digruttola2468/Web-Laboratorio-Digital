@@ -118,8 +118,11 @@ ul {
 .product-item img {
     width: 100%;
 }
-.product-item p {
+.product-item a {
     margin-top: 10px;
+}
+.product-item a:hover {
+    text-decoration: underline;
 }
 .product-item b {
     margin-top: 10px;
@@ -131,4 +134,19 @@ ul {
     padding: 8px;
     margin-top: 10px;
     text-transform: uppercase;
+}
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+.button-container button {
+    border: none;
+    background-color: black;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    width: 300px;
+}
+.button-container button:hover {
+    background-color: #3e3e3e;
 }
