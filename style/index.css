@@ -240,6 +240,7 @@ footer a:hover {
     .nav-container {
         grid-template-columns: 1fr 1fr;
         padding: 10px;
+        row-gap: 15px;
     }
     
     .search-container {
@@ -273,6 +274,7 @@ footer a:hover {
         flex-direction: row;
         flex-wrap: wrap;
         margin: 0px;
+        margin-bottom: 30px;
     }
     .features-container a {
         background-color: #b2b2b2;
