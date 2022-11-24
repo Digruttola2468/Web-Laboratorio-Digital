@@ -1,0 +1,48 @@
+.login-main-container{
+    width: 600px;
+    margin: auto;
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+}
+.item-button-facebook {
+    border: none;
+    background-color: #3B5998;
+    color: white;
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+.login-container input{
+    background-color: white;
+    border: none;
+    outline: 1px solid #979797;
+    padding: 10px 5px;
+}
+
+.login-container label {
+    display: block;
+    margin-top: 13px;
+}
+
+.login-container a {
+    margin-top: 10px;
+    color: black;
+}
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+.item-button-login {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+
+@media (max-width: 630px) {
+    .login-main-container{
+        width: 300px;
+    }
+}
