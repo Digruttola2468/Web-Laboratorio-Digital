@@ -1,0 +1,67 @@
+/*--------------------footer--------------------*/
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+footer a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: 100px 300px 250px;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    gap: 10px;
+}
+.footer-container div input {
+    border: none;
+    border: 1px solid white;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.footer-container div input:focus {
+    outline: none;
+}
+.footer-items  {
+    display: flex;
+    flex-direction: column;
+}
+.img-icons-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.img-container {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.img-icons {
+    width: 25px;
+    height: 25px;
+    margin: auto auto;
+    padding: 3px 2px;
+}
+.img-instagram {
+    background-image: url("../img/instagram.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-facebook {
+    background-image: url("../img/facebook.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
