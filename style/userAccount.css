@@ -1,8 +1,10 @@
 .login-main-container{
-    width: 600px;
-    margin: auto;
+    width: 100%;
+    display: grid;
+    place-content: center;
 }
 .login-container {
+    width: 400px;
     display: flex;
     flex-direction: column;
 }
@@ -13,6 +15,7 @@
     padding: 10px 0px;
     margin-top: 10px;
 }
+
 .login-container input{
     background-color: white;
     border: none;
@@ -42,7 +45,7 @@
 }
 
 @media (max-width: 630px) {
-    .login-main-container{
+    .login-container{
         width: 300px;
     }
 }
