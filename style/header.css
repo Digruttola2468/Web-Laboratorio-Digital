@@ -1,6 +1,9 @@
 * {
     font-family: sans-serif;
 }
+a:hover {
+    text-decoration: underline;
+}
 /*--------------------HEADER------------------------*/
 .nav-container {
     display: grid;
@@ -12,13 +15,14 @@
 .nav-container a {
     padding: 10px;
 }
-.img-logo-container img{
+.img-logo-container a{
     width: 100%;
 }
 .search-container {
     position: relative;
 }
 .search-container input{
+    width: 70%;
     border: none;
     border-bottom: 1px solid #b2b2b2;
     padding: 5px;
@@ -29,7 +33,7 @@
 .search-container img {
     width: 20px;
     position: absolute;
-    left: 150px;
+    left: calc(70% - 20px);
 }
 
 
@@ -37,9 +41,7 @@
     margin: 5px;
     font-size: 12px;
 }
-.user-container a:hover {
-    border-bottom: 1px solid black;
-}
+
 
 
 .menu-container {
@@ -69,6 +71,7 @@
     display: flex;
 }
 .menu-item a:hover {
+    text-decoration: none;
     color: #b2b2b2;
 }
 

@@ -49,19 +49,12 @@ footer a:hover {
     border-radius: 10px;
     margin-right: 10px;
 }
-.img-icons {
+.img-container a {
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+.img-container a img {
     width: 25px;
     height: 25px;
-    margin: auto auto;
-    padding: 3px 2px;
-}
-.img-instagram {
-    background-image: url("../img/instagram.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.img-facebook {
-    background-image: url("../img/facebook.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
